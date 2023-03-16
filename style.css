@@ -161,10 +161,12 @@ article{
 .coluna1{
     
     text-align: center;
+    margin-left: 20px;
 }
 
 .coluna2{
     margin-top: -20px;
+    margin-left: 20px;
     text-align: center;
 }
 
