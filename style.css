@@ -96,12 +96,16 @@ p{
 
 a{
       
-    margin-right: 30px;   
+    margin-right: 20px;   
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     text-decoration: none;
+    border-right: 2px;
+    border-color: white;
         
 }
+
+
 
 #meustrampos{
     margin-right: 0;
@@ -113,7 +117,7 @@ a:hover{
 
 
 
-main{
+#fp1{
     display: block;
     margin: auto;
     min-width: 300px;
@@ -124,10 +128,13 @@ main{
     background-position: center center;            
 }
 
+
+
 @media (max-width: 400px){
-    main {
+    #fp1 {
      width: 100%;
      height: 260px;
+     background-size: 50px;
     }
 }
 
@@ -191,6 +198,18 @@ footer{
 #rodape{
     text-align: center;
     
+}
+
+/*CSS PÁGINA "MINHA HISTÓRIA"*/
+
+#fp2{
+    background-color: white;
+    height: 500px;
+}
+
+#fotopg2{
+    display: block;
+    text-align: center;
 }
 
 
