@@ -1,16 +1,15 @@
 
+/* CONFIGURACÕES UNIVERSAIS */
 
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin: 0;
-    padding: 0;
-        
+    padding: 0;        
 }
 
 
-
-
+/*  TÍTULO FA-INK  */
 #titulo{
     
     display: flex;
@@ -25,6 +24,52 @@
     margin-top: -10px;
 }
 
+/* MENU */
+
+#menu{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center; 
+    height: 25px;
+    background-color: black;
+}
+
+#menu{
+    display: block;
+    margin: auto;
+}
+
+a{
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    text-decoration: none;          
+}
+
+#bordasmenu{
+    border-right: 1px solid white; 
+    padding: 10px;
+    margin: 0;
+}
+
+#bordamenusobremim{
+    padding: 10px;
+    margin: 0;
+}
+
+a:hover{
+    color: rgb(203, 129, 33);
+}
+
+#imgmenu{
+    margin: 0;
+    text-align: left;
+}
+
+
+/* ALINHAMENTO DOS TÍTULOS E PARÁGRAFOS */
+
 h1{
     text-align: center;
     font-size: calc(1em + 1vw);
@@ -37,8 +82,7 @@ h2{
     padding: 10px;   
 }
 
-h3{
-    
+h3{    
     text-align: center;
     background-color: black;
     background-clip: text;
@@ -48,20 +92,13 @@ h3{
     padding: 5px; 
 }
 
-h3{
-    display: block;
-    margin: auto;
-}
+h3{display: block;  margin: auto;}
 
-h3{
-    margin-top: 15px;
-}
+h3{margin-top: 15px;}
 
-h4{
-    text-align: center;
+h4{ text-align: center;
     width: 500px;
-    padding: 15px;
-    
+    padding: 15px;    
 }
 
 p{
@@ -71,53 +108,14 @@ p{
     padding: 10px;
 }
 
-#dicas{
-    max-width: 900px;
-}
-
-#menu{
-    display: block;
-    margin: auto;
-    padding: 10px;
-    text-align: center; 
-    height: 20px;
-    background-color: black;
-}
-
-#menu{
-
-    display: block;
-    margin: auto;
-    
-}
+/* DICAS PRIMEIRA PÁGINA */
 
 
 
 
-a{
-      
-    margin-right: 20px;   
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
-    text-decoration: none;
-    border-right: 2px;
-    border-color: white;
-        
-}
+/* MAIN PÁGINA PRINCIPAL_____________ */
 
-
-
-#meustrampos{
-    margin-right: 0;
-}
-
-a:hover{
-    color: rgb(203, 129, 33);
-}
-
-
-
-#fp1{
+#fundohome{
     display: block;
     margin: auto;
     min-width: 300px;
@@ -128,36 +126,14 @@ a:hover{
     background-position: center center;            
 }
 
-
-
 @media (max-width: 400px){
-    #fp1 {
+    #fundohome {
      width: 100%;
      height: 260px;
      background-size: 50px;
     }
 }
 
-
-
-
-
-
-article{
-    padding: 10px;
-}
-
-#carrocel{
-    
-    display: block;
-    margin: auto;
-    padding: 0;
-    max-width: 100%;
-}
-
-#carrocel{
-    margin-top: 15px;
-}
 .coluna1{
     
     text-align: center;
@@ -165,6 +141,24 @@ article{
 }
 
 .coluna2{
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.coluna3{
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.coluna4{
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.coluna5{
     margin-top: -20px;
     margin-left: 20px;
     text-align: center;
@@ -179,40 +173,120 @@ article{
 }
 
 .linkbanner{
-
     margin: 0;
     padding: 0;
+}
 
+article{
+    padding: 10px;
 }
 
 
-footer{
-   display: block;
-   margin: auto;
-   padding: 0;
-   font-family: Arial, Helvetica, 
-   sans-serif;
-   font-size: 0.8em;
-   background-color: black;
-   color: white;
-}   
 
-#rodape{
-    text-align: center;
-    
+#tdicas{
+    color:black;
+    font-size: 1.2em;
+    padding: 15px;
 }
 
-/*CSS PÁGINA "MINHA HISTÓRIA"*/
+#dicas{
+    max-width: 900px;
+    color:black;
+    font-size: 1em;
+    padding: 10px;
+}
 
-#fp2{
-    background-color: white;
+/* PÁGINA MEUS TRAMPOS___________ */
+
+#fundomeustrampos{
+    background-color:white;
     height: 500px;
 }
 
-#fotopg2{
+#txtmeustrampos{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    max-width: 720px;
+    text-align: center;
+    }
+
+    @media (max-width: 400px){
+        #txtmeustrampos {
+         max-width: 340px;
+         
+        }
+    }
+
+#confira{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 1.1em;
+}    
+
+
+
+
+/*PÁGINA "SOBRE MIM"__________________*/
+
+#fotosobremim{margin-top: 25px;}
+
+#fundosobremim{
+    background-color:white;
+    height: 500px;
+}
+
+#fotosobremim{
     display: block;
     text-align: center;
 }
+
+#txtsobremim{
+    max-width: 780px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*PÁGINA FINE LINE__________________*/
+
+#fundofineline{
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    max-width: 900px;  
+    height: 1080px; 
+    background-image: url('img/fundomaintattoo.png');
+    background-size: 70px;
+    background-position: center center;            
+}
+
+@media (max-width: 400px){
+    #fundofineline {
+     width: 100%;
+     height: 540px;
+     background-size: 50px;
+    }
+}
+
+
+
+/* RODAPÉ UNIVERSAL________________ */
+
+footer{
+    display: block;
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+ }   
+ 
+ #rodape{
+     text-align: center;
+     
+ }
 
 
 
