@@ -177,23 +177,38 @@ p{
     padding: 0;
 }
 
-article{
-    padding: 10px;
-}
+/* DICAS DE CUIDADOS */
 
-
+article{padding: 10px;}
 
 #tdicas{
-    color:black;
+    color:rgb(0, 0, 0);
+    text-transform: ;
     font-size: 1.2em;
-    padding: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: underline;
+    
+}
+
+#caixadicas{
+    
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#caixadicas{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #dicas{
     max-width: 900px;
-    color:black;
+    color:rgb(0, 0, 0);
     font-size: 1em;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* PÁGINA MEUS TRAMPOS___________ */
@@ -201,6 +216,9 @@ article{
 #fundomeustrampos{
     background-color:white;
     height: 500px;
+    background-image: url('img/fundomaintattoo.png');
+    background-size: 70px;
+    background-position: center center;
 }
 
 #txtmeustrampos{
@@ -268,7 +286,36 @@ article{
     }
 }
 
+ /* REDES SOCIAIS */
 
+.social{
+   border-bottom: solid white 1px; 
+}
+
+.insta{
+    max-width: 10%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.face{
+    max-width: 10%;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.zap{
+    max-width: 10%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#tsocial{
+    font-weight: lighter;
+    font-size: 1.5em;
+}
 
 /* RODAPÉ UNIVERSAL________________ */
 
@@ -281,12 +328,30 @@ footer{
     font-size: 0.8em;
     background-color: black;
     color: white;
- }   
+ } 
+ 
+ footer{height: auto;}
  
  #rodape{
-     text-align: center;
-     
- }
+    color: rgba(255, 255, 255, 0.427);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
