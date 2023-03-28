@@ -56,15 +56,17 @@ a{
     text-decoration: none;          
 }
 
-#bordasmenu{
+#linkmenu{
+    display: inline-block;
+    
     border-right: 1px solid white; 
-    padding: 10px;
-    margin: 0;
+    padding-right: 10px;
+    margin-right: 10px;
 }
 
-#bordamenusobremim{
+#linkmenusobremim{
     padding: 10px;
-    margin: 0;
+    margin-left: 5px;
 }
 
 a:hover{
@@ -75,6 +77,8 @@ a:hover{
     margin: 0;
     text-align: left;
 }
+
+
 
 
 /* ALINHAMENTO DOS TÍTULOS E PARÁGRAFOS */
@@ -330,45 +334,32 @@ article{padding: 10px;}
 
  /* REDES SOCIAIS */
 
-.social{
-   border-bottom: solid white 1px; 
-}
 
-.insta{
-    max-width: 5%;
-    margin-top: 0;
+
+.logosocial{
+    max-width: 7%;
     margin-bottom: 10px;
     margin-right: 20px;
     
 }
-.insta:hover{
-    transform: scale(1.2);
+
+
+@media (max-width: 400px){
+    .logosocial {
+        margin: 25px;
+        padding: 5px;
+        transform: scale(2);
+        }
 }
 
-.face{
-    max-width: 5%;
-    margin-top: 0;
-    margin-right: 15px;
-    margin-bottom: 10px;
-}
-
-.face:hover{
-    transform: scale(1.2);
-}
-
-.zap{
-    max-width: 5%;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.zap:hover{
-    transform: scale(1.2);
+.logosocial:hover{
+    transform: scale(2.5);
 }
 
 #tsocial{
     font-weight: lighter;
     font-size: 1.5em;
+    padding: 15px;
 }
 
 /* RODAPÉ UNIVERSAL________________ */
