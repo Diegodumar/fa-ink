@@ -10,12 +10,21 @@
 
 
 /*  TÍTULO FA-INK  */
+
+header{
+    position: relative;
+    height: 120px;
+    padding: 15px;
+}
+
 #titulo{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#titulo{
+    transform: translate(-40%, -40%);
     font-size: calc(2em + 2vw);
 }
 
@@ -172,6 +181,13 @@ p{
     border-radius: 10px;
 }
 
+.banner:hover{
+    transform: scale(1.2);
+}
+
+
+
+
 .linkbanner{
     margin: 0;
     padding: 0;
@@ -235,6 +251,8 @@ article{padding: 10px;}
         }
     }
 
+
+
 #confira{
     margin-top: 20px;
     margin-bottom: -20px;
@@ -286,6 +304,24 @@ article{padding: 10px;}
     }
 }
 
+.fotos{
+    display: inline-flex;
+    max-width: 30%;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 10px;     
+}
+
+.fotos:hover{
+    display: inline-block;
+    margin: auto;
+    
+    transform: scale(200%);
+    
+    
+    
+}
+
  /* REDES SOCIAIS */
 
 .social{
@@ -297,6 +333,10 @@ article{padding: 10px;}
     margin-top: 0;
     margin-bottom: 10px;
     margin-right: 20px;
+    
+}
+.insta:hover{
+    transform: scale(1.2);
 }
 
 .face{
@@ -306,10 +346,18 @@ article{padding: 10px;}
     margin-bottom: 10px;
 }
 
+.face:hover{
+    transform: scale(1.2);
+}
+
 .zap{
     max-width: 10%;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.zap:hover{
+    transform: scale(1.2);
 }
 
 #tsocial{
@@ -340,6 +388,7 @@ footer{
 
 
 
+  
 
 
 
