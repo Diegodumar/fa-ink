@@ -40,10 +40,18 @@ menu > ul > li > a{
     display: block;
     margin: auto;
     padding: 1px;
-    color:rgb(0, 0, 0);
-    transform: scale(3);  
+    background-color: rgba(0, 0, 0, 0.956);
+    color:#a65f33;
+    transform: scale(2.3);  
     cursor: pointer; 
+    border-radius: 5px;
 }
+
+.material-symbols-outlined{
+    padding-bottom: 3px;
+}
+
+
 
 nav{
     display: block;
@@ -330,6 +338,33 @@ article{padding: 10px;}
     transform: scale(180%);
             
 }
+
+/* PÁGINA MEUS CONTATOS */
+
+#tmeuscontatos{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+#txtmeuscontatos{
+    text-align: center;
+    
+}
+
+#linkzap-pg-contatos{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 15px;
+    
+}
+
+#linkzap-pg-contatos:hover{
+    transform: scale(1.2);
+}
+
+
 
  /* REDES SOCIAIS */
 
