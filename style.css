@@ -11,73 +11,61 @@
 
 /*  TÍTULO FA-INK  */
 
-header{
-    position: relative;
-    height: 120px;
-    padding: 15px;
+#titulo{
+    font-size: 2.5em;
+    margin: 20px;
+    padding: 20px;
 }
 
-#titulo{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
 
-#titulo{
-    transform: translate(-40%, -40%);
-    font-size: calc(2em + 2vw);
-}
-
-#titulo{
-    margin-left: -30px;
-    margin-top: -10px;
-}
 
 /* MENU */
 
-#menu{
+
+
+menu{
+    
+    display: none;
+}
+
+menu > li{
+    list-style-type: none;
+    
+}
+
+menu > ul > li > a{
     display: block;
-    margin: auto;
     padding: 10px;
-    text-align: center; 
-    height: 25px;
+    text-decoration: none;
+    text-align: center;
     background-color: black;
+    color: white;
 }
 
-#menu{
+
+
+
+
+.material-symbols-outlined{
+    
+    color:black;
+    transform: scale(2.5);  
+    cursor: pointer; 
+    margin-bottom:40px; 
+    
+}
+
+i.material-symbols-outlined{
+    
     display: block;
-    margin: auto;
+    text-align: center;
+    padding: 0px;
 }
 
-a{
+.material-symbols-outlined:hover{
     
-    color: rgb(255, 255, 255);
-    font-size: 1.1em;
-    text-decoration: none;          
+    transform: scale(4);
 }
-
-#linkmenu{
-    display: inline-block;
-    
-    border-right: 1px solid white; 
-    padding-right: 10px;
-    margin-right: 10px;
-}
-
-#linkmenusobremim{
-    padding: 10px;
-    margin-left: 5px;
-}
-
-a:hover{
-    color: rgb(203, 129, 33);
-}
-
-#imgmenu{
-    margin: 0;
-    text-align: left;
-}
-
 
 
 
@@ -130,6 +118,7 @@ p{
 
 main{
     background-color: black;
+    
 }
 
 

@@ -7,21 +7,34 @@
     <title>Fa.ink - Tattoo</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 </head>
 
 <body>
 
 <header>
-    <h1 id="titulo" >@FA.INK</h1>       
-</header>
+<div>
+    <h1 id="titulo" >@FA.INK</h1>  
+</div>   
 
-    <nav id="menu" >
+<i class="material-symbols-outlined" onclick="clickMenu()" >play_circle</i>
 
-        <a id="linkmenu" href="index.html">Home</a>
-        <a id="linkmenu" href="trampos.html">trampos</a>
-        <a id="linkmenusobremim" href="sobremim.html">Sobre Mim</a>
+<menu id="menu" >
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="trampos.html">Trampos</a></li>
+<li><a href="sobremim.html">Sobre Mim</a></li>
+<li><a href="index.html">Contatos</a></li>
+
+</ul>
         
-    </nav> 
+</menu> 
+
+</header>
 
 <main>
 
@@ -30,9 +43,9 @@
 
     <div class="coluna1" > 
 
-    <a class="linkbanner" href="trampos.html"> <img class="banner" src="img/fine-line.png" alt=""></a>
+    <a class="linkbanner" href="fineline.html"> <img class="banner" src="img/fine-line.png" alt=""></a>
 
-    <a class="linkbanner" href="trampos.html"> <img class="banner" src="img/diversas.png" alt=""></a>
+    <a class="linkbanner" href="diversas.html"> <img class="banner" src="img/diversas.png" alt=""></a>
 
     
     </div>
@@ -74,6 +87,17 @@
 
 </article>
 
+<script>
+
+function clickMenu(){
+       if (menu.style.display == 'block'){
+        menu.style.display = 'none'
+       } else {
+        menu.style.display = 'block'
+       }
+}
+
+</script>
 
 </body>
 
@@ -98,10 +122,6 @@
     <p>Av Brasil 2035 - Ferraz de Vasconcelos - Sala 06</p>
 
     <p id="rodape" >Site desenvolvido por Dumar Tecnologia</p> <br>
-
-    
-
-   
 
 
 

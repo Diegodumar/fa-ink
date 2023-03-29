@@ -8,22 +8,33 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 </head>
 
 <body>
 
-    <header>
-       <h1 id="titulo" >@FA.INK</h1>       
-    </header>
+<header>
+<div>
+    <h1 id="titulo" >@FA.INK</h1>  
+</div>   
 
-    <nav id="menu" >
+<i class="material-symbols-outlined" onclick="clickMenu()" >play_circle</i>
 
-        <a id="bordasmenu" href="index.html">Home page</a>
-        <a id="bordasmenu" href="trampos.html">Meus trampos</a>
-        <a id="bordamenusobremim" href="sobremim.html">Sobre Mim</a>
+<menu id="menu" >
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="trampos.html">Trampos</a></li>
+<li><a href="sobremim.html">Sobre Mim</a></li>
+<li><a href="index.html">Contatos</a></li>
+
+</ul>
         
-    </nav> 
+</menu> 
+
+</header>
 
 
 <main id="fundofineline"> 
@@ -77,6 +88,17 @@
 
 <hr>
 
+<script>
+
+    function clickMenu(){
+           if (menu.style.display == 'block'){
+            menu.style.display = 'none'
+           } else {
+            menu.style.display = 'block'
+           }
+    }
+    
+    </script>
    
 </body>
 
@@ -86,13 +108,13 @@
  
      <p class="social">
  
-        <a href="https://instagram.com/fa.ink?igshid=YmMyMTA2M2Y="> <img class="insta" src="img/instagram.png.png" alt="">
+        <a href="https://instagram.com/fa.ink?igshid=YmMyMTA2M2Y="> <img class="logosocial" src="img/instagram.png.png" alt="">
         </a>    
  
-        <a href="https://www.facebook.com/fa.inktattoo/"> <img class="face" src="img/face.png.png" alt="">
+        <a href="https://www.facebook.com/fa.inktattoo/"> <img class="logosocial" src="img/face.png.png" alt="">
         </a> 
         
-        <a href="https://api.whatsapp.com/send/?phone=5511992826399&text&type=phone_number&app_absent=0"> <img class="zap" src="img/logowhatsapp.png" alt="">
+        <a href="https://api.whatsapp.com/send/?phone=5511992826399&text&type=phone_number&app_absent=0"> <img class="logosocial" src="img/logowhatsapp.png" alt="">
         </a> 
  
      </p>
