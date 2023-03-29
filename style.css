@@ -11,32 +11,20 @@
 
 /*  TÍTULO FA-INK  */
 
-#titulo{
-    display: block;
-    font-size: 2.5em;
-    margin-left: -20px;
-    padding: 10px;
+header{height: auto;}
+
+header > h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 15px;
 }
-
-
 
 
 /* MENU */
 
-header{
-    height: auto;
-}
+menu{display: none;}
 
-
-menu{
-    
-    display: none;
-}
-
-menu > li{
-    list-style-type: none;
-    
-}
+menu > li{list-style-type: none;}
 
 menu > ul > li > a{
     display: block;
@@ -47,43 +35,36 @@ menu > ul > li > a{
     color: white;
 }
 
-
-
-
-
 .material-symbols-outlined{
     display: block;
     margin: auto;
-    color:black;
-    transform: scale(2.5);  
+    padding: 1px;
+    color:rgb(0, 0, 0);
+    transform: scale(3);  
     cursor: pointer; 
-       
-    
 }
 
-i.material-symbols-outlined{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding: 15px;
-}
-
-.material-symbols-outlined:hover{
-
-    transform: scale(3);
+nav{
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 25px;
 }
 
 
+menu > ul > li > a{
+    border-bottom: solid gray 1px;
+}
 
 
 
 /* ALINHAMENTO DOS TÍTULOS E PARÁGRAFOS */
 
-h1{
-    text-align: center;
-    font-size: calc(1em + 1vw);
-    margin-top: 15px;    
+article > h2 {
+    margin-top: 4%;
+    font-size: calc(4px + 4vw);
 }
+
 
 h2{
     text-align: center;
@@ -124,11 +105,7 @@ p{
 
 /* MAIN PÁGINA PRINCIPAL_____________ */
 
-main{
-    background-color: black;
-    
-}
-
+main{background-color: black;}
 
 #fundohome{
     display: block;
@@ -137,15 +114,15 @@ main{
     max-width: 900px;  
     height: 600px; 
     background-image: url('img/fototattoowallpaper.jpg');
-    
     background-position: center center;            
 }
+
 
 @media (max-width: 400px){
     #fundohome {
      width: 100%;
      height: 260px;
-     margin-top: -1px;     
+          
     }
 }
 
@@ -259,14 +236,11 @@ article{padding: 10px;}
     }
 
 
-
 #confira{
     margin-top: 20px;
     margin-bottom: -20px;
     font-size: 1.1em;
 }    
-
-
 
 
 /*PÁGINA "SOBRE MIM"__________________*/
@@ -324,34 +298,23 @@ article{padding: 10px;}
     margin: auto;
     
     transform: scale(180%);
-    
-    
-    
+            
 }
 
  /* REDES SOCIAIS */
 
 
-
 .logosocial{
-    max-width: 7%;
+    max-width: 12%;
     margin-bottom: 10px;
     margin-right: 20px;
     
 }
 
-
-@media (max-width: 400px){
-    .logosocial {
-        margin: 25px;
-        padding: 5px;
-        transform: scale(2);
-        }
-}
-
 .logosocial:hover{
-    transform: scale(2.5);
+    transform: scale(1.2);
 }
+
 
 #tsocial{
     font-weight: lighter;
@@ -373,6 +336,7 @@ footer{
  } 
  
  footer{height: auto;}
+ 
  
  #rodape{
     color: rgba(255, 255, 255, 0.427);
