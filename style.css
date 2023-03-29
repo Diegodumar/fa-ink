@@ -12,15 +12,20 @@
 /*  TÍTULO FA-INK  */
 
 #titulo{
+    display: block;
     font-size: 2.5em;
-    margin: 20px;
-    padding: 20px;
+    margin-left: -20px;
+    padding: 10px;
 }
+
 
 
 
 /* MENU */
 
+header{
+    height: auto;
+}
 
 
 menu{
@@ -47,25 +52,28 @@ menu > ul > li > a{
 
 
 .material-symbols-outlined{
-    
+    display: block;
+    margin: auto;
     color:black;
     transform: scale(2.5);  
     cursor: pointer; 
-    margin-bottom:40px; 
+       
     
 }
 
 i.material-symbols-outlined{
-    
-    display: block;
-    text-align: center;
-    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
 }
 
 .material-symbols-outlined:hover{
-    
-    transform: scale(4);
+
+    transform: scale(3);
 }
+
+
 
 
 
