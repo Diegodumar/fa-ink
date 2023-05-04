@@ -11,7 +11,9 @@
 
 /*  TÍTULO FA-INK  */
 
-header{height: auto;}
+header{
+    background-color: ;
+    height: auto;}
 
 header > h1{
     margin-left: -25px;
